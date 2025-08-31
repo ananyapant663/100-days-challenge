@@ -5,7 +5,6 @@
 int main() {
     int a, b, c;
 
-    // Ask the user to enter the side lengths
     printf("Enter three sides of a triangle: ");
     scanf("%d %d %d", &a, &b, &c);
 
