@@ -5,17 +5,16 @@
 int main() {
     int a, b, c;
 
-    // Ask the user to enter the side lengths
     printf("Enter three sides of a triangle: ");
     scanf("%d %d %d", &a, &b, &c);
 
     
-    if (a + b > c && a + c > b && b + c > a) 
+    if (a+b>c && a+c>b &&b+c> a) 
     {
         if (a == b && b == c) {
             printf("Equilateral\n");
         }
-        else if (a == b || b == c || a == c) {
+        else if (a==b || b==c ||a==c) {
             printf("Isosceles\n");
         }
         else {
